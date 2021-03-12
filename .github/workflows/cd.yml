@@ -9,10 +9,10 @@ jobs:
 
       - name: Install and Build
         run: |
-          npm install -g less
+          npm install less
           mkdir dist
           cp src/index.html dist/index.html
-          lessc src/index.less dist/index.css
+          npx lessc src/index.less dist/index.css
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.0
