@@ -8,6 +8,8 @@ body {
   text-align: center;
 }
 .avatar {
-  width: 10%;
+  max-width: 323px;
+  width: 100%;
+  height: auto;
   border-radius: 10px;
 }
