@@ -1,4 +1,13 @@
 body {
-  color: #428bca;
-  background: #03070a;
+  color: #F0F0F0;
+  background: #000000;
+  font-family: 'Roboto Mono';
+}
+.content {
+  margin: 5%;
+  text-align: center;
+}
+.avatar {
+  width: 10%;
+  border-radius: 10px;
 }
