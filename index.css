@@ -1,6 +1,6 @@
 body {
-  color: #bdc1c6;
-  background: #202124;
+  color: #eeeeee;
+  background: #34363b;
   font-family: 'Helvetica', 'Arial', sans-serif;
   font-size: 1.2em;
 }
@@ -16,7 +16,33 @@ body {
   height: auto;
   border-radius: 10px;
 }
-ul {
-  line-height: 1.75;
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.card {
+  background-color: #282a2d;
+  max-width: 20em;
+  margin: 20px auto;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px #111111;
+  overflow: hidden;
+}
+.card-image {
+  filter: brightness(90%);
+  width: 100%;
+}
+.card-content {
+  padding: 15px;
+}
+.card-header {
   text-align: left;
+}
+.card-link {
+  margin: 0px 10px;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+}
+.card-link:hover {
+  transform: scale(1.1);
 }
