@@ -5,7 +5,7 @@ body {
   font-size: 1.2em;
 }
 .content {
-  max-width: 50em;
+  max-width: 60em;
   margin: auto;
   padding: 10px;
   text-align: center;
@@ -20,10 +20,16 @@ a {
   text-decoration: none;
   color: inherit;
 }
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .card {
   background-color: #282a2d;
-  max-width: 20em;
-  margin: 20px auto;
+  width: 25em;
+  margin: 10px 10px;
   border-radius: 20px;
   box-shadow: 5px 5px 10px #111111;
   overflow: hidden;
@@ -33,7 +39,7 @@ a {
   width: 100%;
 }
 .card-content {
-  padding: 15px;
+  padding: 20px;
 }
 .card-header {
   text-align: left;
@@ -42,6 +48,7 @@ a {
   margin: 0px 10px;
   transition: all 0.2s ease-in-out;
   display: inline-block;
+  font-size: 1.3em;
 }
 .card-link:hover {
   transform: scale(1.1);
